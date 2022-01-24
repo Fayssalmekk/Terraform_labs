@@ -1,0 +1,4 @@
+Budget_aws/.terraform
+Budget_aws/.terraform.lock.hcl
+Budget_aws/terraform.tfstate
+Budget_aws/terraform.tfstate.backup
