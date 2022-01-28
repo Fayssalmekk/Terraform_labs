@@ -2,3 +2,7 @@ Budget_aws/.terraform
 Budget_aws/.terraform.lock.hcl
 Budget_aws/terraform.tfstate
 Budget_aws/terraform.tfstate.backup
+multiple-ec2-each-zone/.terraform
+multiple-ec2-each-zone/.terraform.lock.hcl
+multiple-ec2-each-zone/terraform.tfstate
+multiple-ec2-each-zone/terraform.tfstate.backup

@@ -6,6 +6,10 @@ variable "profile" {
   default = "MyAWS"
 }
 
+variable "sg_name" {
+  default = "security-g-ec2-sg"
+}
+
 variable "ec2_ami" {
   default = "ami-05803413c51f242b7"
 }
@@ -31,5 +35,8 @@ variable "subnets" {
 }
 variable "names" {
   default = ["Serveur wa7d", "serveur jouj", "serveur 3"]
+}
+variable "vpc_name" {
+  default = "main vpc"
 }
 

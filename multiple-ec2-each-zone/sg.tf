@@ -1,6 +1,6 @@
 resource "aws_security_group" "ec2-sg" {
-  name   = "security-g-ec2-sg"
-  vpc_id = var.vpc_id
+  name   = var.sg_name
+  vpc_id = aws_default_vpc.main.id
 
   ingress {
     from_port   = 22
@@ -17,6 +17,6 @@ resource "aws_security_group" "ec2-sg" {
   }
 
   tags = {
-    Name = "ec2-sg"
+    Name = var.sg_name
   }
 }
